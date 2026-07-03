@@ -529,7 +529,13 @@ font-weight: bold;
    Tablet (max-width:768px)
 =========================== */
 @media (max-width:768px){
+ #intro1 h1{
+        font-size:120px;
+    }
 
+    #intro2 h1{
+        font-size:40px;
+    }
     .brand-name{
         font-size:22px;
     }
@@ -601,7 +607,18 @@ font-weight: bold;
    Mobile (max-width:576px)
 =========================== */
 @media (max-width:576px){
+#intro1 h1{
+        font-size:60px;
+    }
 
+    #intro2 h1{
+        font-size:28px;
+    }
+
+    #intro1,
+    #intro2{
+        padding:20px;
+    }
     .brand-name{
         font-size:18px;
     }
