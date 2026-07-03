@@ -43,7 +43,7 @@ body{
     text-align: center;
 }
 #intro1 h1{
-    font-size: 200px;
+    font-size: 120px;
     font-weight: bolder;
 }
 #intro2 h1{
@@ -530,14 +530,24 @@ font-weight: bold;
 =========================== */
 @media (max-width:768px){
  #intro1 h1{
-        font-size:120px;
+        font-size:90px;
     }
 
     #intro2 h1{
-        font-size:40px;
+        font-size:35px;
+    }
+
+    .logo-icon{
+        font-size:55px;
+    }
+
+    .intro{
+        padding:20px;
+        text-align:center;
     }
     .brand-name{
         font-size:22px;
+        
     }
 
     .home{
@@ -607,17 +617,24 @@ font-weight: bold;
    Mobile (max-width:576px)
 =========================== */
 @media (max-width:576px){
-#intro1 h1{
-        font-size:60px;
+.intro{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #intro1 h1{
+        font-size:45px;
+        line-height:1.1;
     }
 
     #intro2 h1{
-        font-size:28px;
+        font-size:22px;
     }
 
-    #intro1,
-    #intro2{
-        padding:20px;
+    .logo-icon{
+        font-size:35px;
     }
     .brand-name{
         font-size:18px;
