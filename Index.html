@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sundae Funday</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+ <!-- link to font awesome for inserting icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="
+     sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+       <link rel="stylesheet" href="Icecrem.css">
+       
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+<div id="intro1" class="intro">
+    <i class="fa-solid fa-ice-cream logo-icon"></i>
+  <h1 class="text-uppercase">Sundae Funday</h1>
+</div>
+<div id="intro2" class="intro">
+  
+  <h1>Since 2012</h1>
+</div>
+<div id="main-content">
+    <!-- Navbar -->
+    <!-- Hero -->
+    <!-- All my website content -->
+</div>
+<script>
+window.onload = function(){
+
+    setTimeout(function(){
+
+        document.getElementById("intro1").style.display="none";
+        document.getElementById("intro2").style.display="flex";
+
+    },4000);
+
+    setTimeout(function(){
+
+        document.getElementById("intro2").style.display="none";
+        document.getElementById("main-content").style.display="block";
+
+    },5000);
+
+}
+</script>
+
+<!-- Offer Bar -->
+    <div class="offerbar text-center">
+        <div class="marquee-content">
+<marquee behaviour="scroll" direction="left">
+<b>Buy 2 Sunade & get 1 FREE | Summer Offer</b></marquee>
+        </div>
+ </div>
+ <!-- Offer bar ends --><br>
+
+ <!-- Navbar starts -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-white shadow ms p-2">
+  <div class="container-fluid">
+    <!-- logo &title -->
+     <a class="navbar-brand d-flex align-items-center" href="#">
+      <i class="fa-solid fa-ice-cream logo-icon"></i>
+      <span class="brand-name"> Sundae Funday</span>
+     </a>
+     <!-- toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     <!-- Nav Links -->
+<div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#story">Our Story</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#products">Our Products</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#reviews">Reviews</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+        </li>
+
+    </ul>
+</div>
+        </div>
+    </div>
+    </nav>
+<!-- Navbar ends -->
+ <br>
+  <!-- home section starts -->
+     
+<section id="home">
+<div class="home">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <!-- Left Content -->
+            <div class="col-lg-6 col-md-12">
+                <p>Welcome To</p>
+
+                <h1 class="text-uppercase">Sundae Funday</h1><br>
+
+                <span>
+                    <i><b>Ultimate summer survival guide: Ice cream and enjoy in our "Sundae Funday"</b></i>
+                </span>
+
+                <p class="hero-text">
+                    Beat the heat with Sundae Funday. Happiness in a bowl.<br>
+                    Creating sweet memories, one scoop at a time.
+                    Treat yourself to something sweet today.
+                </p>
+
+                <div class="button">
+                    <button class="btn btn-primary" onclick="toggleStory()">Explpore More</button>
+                </div>
+            </div>
+            <script>
+function toggleStory() {
+    const section = document.getElementById("story");
+
+    if (section.style.display === "none" || section.style.display === "") {
+        section.style.display = "block";
+
+        section.scrollIntoView({
+            behavior: "smooth"
+        });
+    } else {
+        section.style.display = "none";
+    }
+}
+</script>
+
+            <!-- Right Image -->
+            <div class="col-lg-6 col-md-12 text-center mt-4 mt-lg-0">
+                <img src="pngtree-ice-cream-cone-desert-realistic-detailed-3d-with-shinny-look-in-png-image_15453301.png"
+                     class="img-fluid hero-img"
+                     alt="Ice Cream">
+            </div>
+
+        </div>
+    </div>
+</div>
+</section>
+
+         <!-- Home section ends --><br>
+          <!--OUR STORY section starts -->
+<section id="story" class="py-5" style="display: none;">
+<div class="story-video">
+    <video autoplay muted loop playsinline>
+        <source src="12747115_1920_1080_25fps.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+
+    <div class="story-content">
+        <h1 class="text-uppercase">The Sundae Funday's Story</h1>
+        <p>
+            At Sundae Funday, every scoop is made with love, passion, and the finest ingredients.
+            We believe ice cream is more than a dessert—it's a reason to smile, celebrate, and create
+            sweet memories with family and friends.<br>
+            At Sundae Funday, every scoop is made with love, passion, and a commitment to quality. Our journey began with a simple dream—to create a place where people of all ages can enjoy delicious ice cream and make unforgettable memories.
+
+We use carefully selected ingredients to craft rich, creamy, and flavorful ice creams that bring smiles with every bite. From classic favorites like Vanilla and Chocolate to exciting seasonal creations, there's something for everyone to enjoy.
+
+More than just serving ice cream, we believe in creating joyful experiences. Whether you're celebrating a birthday, spending time with family, or simply satisfying a sweet craving, Sundae Funday is here to make every moment extra special.
+
+Our Mission: To spread happiness through delicious, high-quality ice cream and warm customer service.
+
+Our Vision: To become everyone's favorite destination for sweet treats, joyful moments, and unforgettable flavors.
+
+"Every scoop is a celebration of happiness." 
+        </p>
+        <div class="button">
+    <button class="btn-secondary" onclick="toggleWhatsInside()">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        Discover More
+    </button>
+</div>
+    </div>
+    </div>
+    <script>
+function toggleWhatsInside() {
+    const section = document.getElementById("Whatsinside");
+
+    if (section.style.display === "none" || section.style.display === "") {
+        section.style.display = "block";
+
+        section.scrollIntoView({
+            behavior: "smooth"
+        });
+    } else {
+        section.style.display = "none";
+    }
+}
+</script>
+</section>
+
+ <!--OUR STORY section ends -->
+ <!-- Whats's Inside -->
+  <section id="Whatsinside" class="py-5" style="display:none;">
+    <div class="container">
+        <div class="row align-items-center">
+ <!-- left Image -->
+            <div class="col-lg-6 col-md-12 text-center mt-4 mt-lg-0">
+                <img src="mocha-removebg-preview.png" class="img-fluid" alt="Mocha">
+            </div>
+            <!-- right content -->
+              <div class="col-lg-6 col-md-12">
+            <div class="Whatsinside-content">
+            <h1 class="text-uppercase mb-4">What's Inside?</h1>
+
+            <p class="mx-auto">
+                **Our Sundae is made up of** premium-quality ice cream, fresh seasonal fruits, rich chocolate and caramel sauces, fluffy whipped cream, crunchy roasted nuts, colorful sprinkles, cookie crumbles, and carefully selected toppings. Every ingredient is chosen with care to ensure the perfect balance of creamy texture, delightful crunch, and irresistible sweetness.
+
+From the very first scoop to the last bite, our sundae offers a delicious combination of flavors that melt in your mouth and leave a lasting impression. The smooth, creamy ice cream blends beautifully with the freshness of the fruits, while the rich sauces add a layer of indulgence. Crunchy nuts and cookie crumbles provide the perfect texture, and whipped cream with vibrant sprinkles gives every sundae a fun and eye-catching finish.
+
+At Sundae Funday, we believe that a sundae is more than just a dessert—it's a joyful experience. That's why every sundae is freshly prepared using high-quality ingredients, ensuring exceptional taste, freshness, and satisfaction in every serving. Whether you're celebrating a special occasion, spending time with friends and family, or simply treating yourself, our sundaes are crafted to make every moment sweeter and every visit memorable.
+
+            </p>
+            </div>
+              </div>
+        </div>
+    </div>
+    
+</section>
+          <!-- our Product section starts -->
+<section id="products">
+    <div class="products-content">
+    <h1 class="text-uppercase">Items</h1>
+    <span class="text-uppercase">special Icecrems</span>
+    <p>We are providing fresh & tasty Icecrems</p>
+       <div id="galleryCarousel1" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+            <div class="container">
+                <div class="row text-center">
+
+                    <div class="col-lg-4 col-md-6 col-12 mb-4">
+                        <img src="pngtree-chocolate-ice-cream-in-the-white-glass-bowl-ai-generated-png-image_11875876-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Chocolate Heaven</h2>
+                        
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 mb-4">
+                        <img src="pngtree-strawberry-ice-cream-cup-png-image_13015967-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Strawberry Bliss</h2>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 mb-4">
+                        <img src="pngtree-mango-ice-cream-in-glass-cup-with-slices-png-image_16192642-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Mango Magic</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row text-center">
+
+                    <div class="col-lg-4 col-md-6 col-12 mb-4">
+                        <img src="pista_images-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Pistachio Nuts</h2>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 mb-4">
+                        <img src="pngtree-blueberry-ice-cream-png-image_11597557-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Classic Blueberry </h2>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 mb-4">
+                        <img src="butter-scotch-ice-cream-500x500-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Crunchy Butterscotch</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Previous -->
+    <button class="carousel-control-prev" type="button"
+        data-bs-target="#galleryCarousel1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <!-- Next -->
+    <button class="carousel-control-next" type="button"
+        data-bs-target="#galleryCarousel1" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+
+</div>
+
+</div>
+
+
+    <div id="galleryCarousel2" class="carousel slide" data-bs-ride="carousel">
+        <div class="products-content">
+    <h2 class="text-uppercase">our premium Icecrems</h2>
+
+    <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+            <div class="container">
+                <div class="row text-center">
+
+                    <div class="col-lg-4 col-md-6 col-12 mb-4">
+                        <img src="a06a9443fb230dea168d213fd3898dc3-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Strawberry velvet</h2>
+                        
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 mb-4">
+                        <img src="mocha-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Creamy Mocha</h2>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 mb-4">
+                        <img src="belgian-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Belgian Royale</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row text-center">
+
+                    <div class="col-md-4">
+                        <img src="cheese_cake-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Bluberry Cheesecake</h2>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="slated_caramel-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Salted Creamy Caramel </h2>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="pngtree-cookies-and-cream-ice-in-a-white-plastic-bowl-garnished-with-png-image_15843626-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Crunchy Cookies & Cream</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!-- Previous -->
+    <button class="carousel-control-prev" type="button"
+        data-bs-target="#galleryCarousel2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <!-- Next -->
+    <button class="carousel-control-next" type="button"
+        data-bs-target="#galleryCarousel2" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+        </div>
+    </div>
+ <div id="galleryCarousel3" class="carousel slide" data-bs-ride="carousel">
+        <div class="products-content">
+    <h2 class="text-uppercase">our special sunade's</h2>
+
+    <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+            <div class="container">
+                <div class="row text-center">
+
+                    <div class="col-md-4">
+                        <img src="sunade_blueberry-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Rich Blueberry Sundae</h2>
+                        
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="sunade_mango-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Mango Royale Sundae</h2>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="sunade_red_velvet-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Crunchy Red-Velvet Sundae</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row text-center">
+
+                    <div class="col-md-4">
+                        <img src="sundae_choco-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Choco-nut Sundae</h2>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="sundae_strawberry-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Strawberry heaven Sundae </h2>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="nutella_sunade-removebg-preview.png" class="img-fluid rounded" alt="icecream">
+                        <h2>Nutella Creamy Sundae</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!-- Previous -->
+    <button class="carousel-control-prev" type="button"
+        data-bs-target="#galleryCarousel3" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <!-- Next -->
+    <button class="carousel-control-next" type="button"
+        data-bs-target="#galleryCarousel3" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+        </div>
+ </div>
+</section>
+ <!-- our Product section ends -->
+  <section id="offers" class="py-5">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h1 class="text-uppercase">Special Offers</h1>
+            <p>Enjoy amazing deals on your favorite sundaes!</p>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="offer-card text-center p-4">
+                    <h3> Buy 1 Get 1 Free</h3>
+                    <p>Purchase any Classic Sundae and get another one absolutely free.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="offer-card text-center p-4">
+                    <h3>🎉 20% OFF</h3>
+                    <p>Get 20% off on all Premium Sundaes every weekend.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="offer-card text-center p-4">
+                    <h3> Free Icecrems</h3>
+                    <p>Order any Family Combo and receive a complimentary icecreams.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+  <!-- reviewsection starts -->
+           <section id="reviews" class="py-5">
+    <div class="container">
+        <div class="review-content">
+<h1>Reviews</h1>
+        <h2 class="text-center review-title">
+            What Our Customers Say
+        </h2>
+
+        <p class="text-center review-subtitle">
+             Sweet Words from Our Customers
+        </p>
+
+        <div class="row mt-5">
+
+            <!-- Review 1 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card review-card h-100">
+                    <div class="card-body text-center">
+                        <h2>⭐⭐⭐⭐⭐</h2>
+                        <p>
+                            "The Chocolate Heaven was absolutely delicious!
+                            Creamy, rich and full of flavour."
+                        </p>
+                        <h5>Priya S.</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card review-card h-100">
+                    <div class="card-body text-center">
+                        <h2>⭐⭐⭐⭐⭐</h2>
+                        <p>
+                            "Fresh ingredients and amazing taste.
+                            Mango Magic is my favourite!"
+                        </p>
+                        <h5>Arun K.</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card review-card h-100">
+                    <div class="card-body text-center">
+                        <h2>⭐⭐⭐⭐⭐</h2>
+                        <p>
+                            "Best ice cream shop in town.
+                            Loved every scoop!"
+                        </p>
+                        <h5>Meena R.</h5>
+                    </div>
+                </div>
+                </div>
+            
+<!-- Review 4 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card review-card h-100">
+                    <div class="card-body text-center">
+                        <h2>⭐⭐⭐⭐⭐</h2>
+                        <p>
+                            "love the flavors of sundase's.
+                            Inspired by Ambience!"
+                        </p>
+                        <h5>Suresh S.</h5>
+                    </div>
+                </div>
+                </div>
+                <!-- Review 5 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card review-card h-100">
+                    <div class="card-body text-center">
+                        <h2>⭐⭐⭐⭐⭐</h2>
+                        <p>
+                            "I personally love Bluberry Cheesecake.
+                            Damn!!!.. Mouth-Watery"
+                        </p>
+                        <h5>Renu R.</h5>
+                    </div>
+                </div>
+                </div>
+                <!-- Review 6-->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card review-card h-100">
+                    <div class="card-body text-center">
+                        <h2>⭐⭐⭐⭐⭐</h2>
+                        <p>
+                            "Firstly I loved & Inspired by the Ambience.
+                            Damn Pretty!!!"
+                        </p>
+                        <h5>Abishek J.</h5>
+                    </div>
+                </div>
+                </div>
+<!-- Review 7-->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card review-card h-100">
+                    <div class="card-body text-center">
+                        <h2>⭐⭐⭐⭐⭐</h2>
+                        <p>
+                            "Every flavor is unique and full of taste. The quality is outstanding, and the presentation is beautiful.<br> Highly recommended for dessert lovers!"
+                        </p>
+                        <h5>Sneha.P</h5>
+                    </div>
+                </div>
+                </div>
+                <!-- Review 8-->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card review-card h-100">
+                    <div class="card-body text-center">
+                        <h2>⭐⭐⭐⭐⭐</h2>
+                        <p>
+                            "The staff were friendly, and the ice cream was amazing. <br>
+                            The mango flavor tasted so natural and refreshing. A perfect place to chill with friends."
+                        </p>
+                        <h5>Arun T.</h5>
+                    </div>
+                </div>
+                </div>
+                <!-- Review 9-->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card review-card h-100">
+                    <div class="card-body text-center">
+                        <h2>⭐⭐⭐⭐⭐</h2>
+                        <p>
+                            "Sundae Funday never disappoints! Fresh ingredients, creamy texture, and wonderful flavors make every visit special.<br> My favorite is Belgian Chocolate."
+                        </p>
+                        <h5>Nishant.S</h5>
+                    </div>
+                </div>
+                </div>
+
+  </div>
+        </div>
+    </div>
+</section>
+           <!-- review ends -->
+<!-- contact section starts -->
+ <section id="contact">
+    <div class="contact-content text-center">
+        <h1 class="text-uppercase">Get in touch with Sundae Funday!</h1>
+        <p>Whether you have a question, feedback, or just want to say hello, we’d love to hear from you!<br>At Sundae Funday, we’re all about making connections—just like our ice pops, we want every interaction to be cool and refreshing.</p>
+<span>6th Floor,Brookfields Mall,Coimbatore, Tamil Nadu 624104</span>
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 col-12">
+
+            <form>
+                <fieldset class="contact-form">
+
+                    <h2 class="text-center mb-4">Contact Us</h2>
+
+                    <label>Your Name</label>
+                    <input type="text" class="form-control mb-3"
+                        placeholder="Enter Your Name" required>
+
+                    <label>Your Email</label>
+                    <input type="email" class="form-control mb-3"
+                        placeholder="Enter Your Email" required>
+
+                    <label>Your Mobile Number</label>
+                    <input type="tel" class="form-control mb-3"
+                        placeholder="Enter Your Mobile Number"
+                        pattern="[0-9]{10}" required>
+
+                    <label>Your Message</label>
+                    <textarea class="form-control mb-5" rows="5"
+                        placeholder="Enter Your Message"
+                        required></textarea>
+
+                    <button type="submit" class="btn btn-primary w-60 align-items-center">
+                        Submit
+                    </button><br><br>
+                    <p>Call:+91 9940821591</p>
+                    <p>Email us:customercare@sunadefunday.in</p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+ </section>
+ <!-- footer starts -->
+  <section id="footer">
+    <div class="footer-content text-center">
+        <h3 class="text-uppercase">Sundae Funday</h3><br><hr>
+        <p>Serving Sundae Funday's, delicious sundae's, and memorable moments every day.</p>
+
+        <p><strong>Address:</strong>6th Floor,Brookfields Mall,Coimbatore, Tamil Nadu 624104</p>
+        <p><strong>Phone:</strong> +91 9940921591</p>
+        <p><strong>Email:</strong>customercare@sunadefunday.in/p>
+
+        <p><strong>Opening Hours:</strong> Monday - Sunday: 8:00 AM - 10:00 PM</p><br>
+        
+    <h3>Follow us on</h3><br>
+
+    <a href="https://www.facebook.com" target="_blank">
+        <i class="fa-brands fa-facebook"></i>Facebook<br>
+    </a>
+
+    <a href="https://www.instagram.com" target="_blank">
+        <i class="fa-brands fa-square-instagram"></i>Instagram<br>
+    </a>
+
+    <a href="https://www.twitter.com" target="_blank">
+      <i class="fa-brands fa-twitter"></i>twitter<br>
+    </a>
+ <p>© 2026 Sundae Funday.</p>
+    </div>
+</footer>
+<!-- footer ends -->
+</body>
+</html>
