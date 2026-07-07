@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://renuga140802-star.github.io/Sundae-Funday-Parlour/sitemap.xml
