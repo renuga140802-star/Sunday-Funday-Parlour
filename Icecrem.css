@@ -69,20 +69,31 @@ text-align: center;
 
 
 /* offer bar */
+
 .offerbar{
-  background: linear-gradient(60deg, rgb(48, 14, 14),rgb(56, 13, 13));
-  color: white;
-  padding: 2px;
-  font-weight:bolder;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background:linear-gradient(60deg, rgb(48, 14, 14),rgb(72, 24, 24)); 
+    padding: 10px 0;
+}
+.marquee-content {
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
 }
 
-.offerbar marquee{
-   display: inline-block;
-    color:whitesmoke;
-    text-shadow: 0 0 4px rgb(92, 91, 91);
-    font-size: 20px;
-font-family:'Times New Roman', Times, serif;
- font-size: 22px;
+.marquee-content marquee {
+    color: white;
+}
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
 }
 /* Header */
 .header{
@@ -159,6 +170,11 @@ text-shadow: 0 0 20px rgb(217, 214, 49);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
     color:rgb(31, 12, 12);
+   }
+   .home h2{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 600;
    }
    .hero-text{
     font-size: 18px;
@@ -467,8 +483,14 @@ font-weight: bold;
 .contact-content h2{
     color:rgb(31, 12, 12);
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
+}
+.contact-content h1{
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
 }
 .contact-form button{
     background: #ff4d6d;
