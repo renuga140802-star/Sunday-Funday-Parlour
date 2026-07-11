@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://renuga140802-star.github.io/Sundae-Funday-Parlour/sitemap.xml
+Sitemap: https://renuga140802-star.github.io/Sunday-Funday-Parlour/sitemap.xml
