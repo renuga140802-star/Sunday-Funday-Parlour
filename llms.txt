@@ -1,0 +1,49 @@
+# Sundae Symphony
+
+Sundae Symphony is a responsive ice cream parlour portfolio website built using HTML, CSS, Bootstrap, and JavaScript. The website showcases premium ice creams, sundaes, special offers, customer reviews, and contact information.
+
+Website
+https://renuga140802-star.github.io/Sunday-Funday-Parlour/
+
+## Main Pages
+- Home
+  https://renuga140802-star.github.io/Sunday-Funday-Parlour/
+
+- Products
+  https://renuga140802-star.github.io/Sunday-Funday-Parlour/product.html
+
+- Reviews
+  https://renuga140802-star.github.io/Sunday-Funday-Parlour/reviews.html
+
+- Contact
+  https://renuga140802-star.github.io/Sunday-Funday-Parlour/contact.html
+
+## Featured Products
+- Chocolate Heaven
+- Strawberry Bliss
+- Mango Magic
+- Premium Sundaes
+- Seasonal Ice Creams
+
+## Website Features
+- Responsive design
+- Bootstrap framework
+- Mobile-friendly layout
+- Customer reviews
+- Contact page
+- Special offers
+
+## Technologies
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+
+## Purpose
+This website was created as a front-end web development portfolio project to demonstrate responsive web design and UI development skills.
+
+## Author
+Renuga R
+
+## License
+This project is intended for educational and portfolio purposes.
