@@ -162,14 +162,19 @@ text-shadow: 0 0 20px rgb(217, 214, 49);
     align-items: center;
 }
 .home span{
-    font-size: 22px;
+    font-size: 30px;
     color: #000000;
     font-weight: 600;
 }
 .home h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 70px;
+    font-size: 60px;
     color:rgb(31, 12, 12);
+   }
+   .home p{
+    font-weight: bolder;
+    color:rgb(19, 10, 10);
+    font-size: 19px;
    }
    .home h2{
     font-size: 30px;
@@ -177,8 +182,8 @@ text-shadow: 0 0 20px rgb(217, 214, 49);
     font-weight: 600;
    }
    .hero-text{
-    font-size: 18px;
-    color: black;
+    font-size: 17px;
+    color: rgb(244, 0, 0);
     line-height: 1.5;
     max-width: 500px;
     margin: 15px 0;
@@ -364,7 +369,7 @@ color:red;
     font-weight: bold;
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
-    color: aliceblue;
+    color: white;
     font-size: 30px;
 }
 
